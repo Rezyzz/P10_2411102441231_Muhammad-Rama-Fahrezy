@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hitung Upah Karyawan (Golongan)</title>
+</head>
+<body>
+    <h2>Masukkan Jam Kerja dan Golongan</h2>
+    <form method="post" action="soal3_proses.php">
+        <table>
+            <tr>
+                <td>Jumlah jam kerja seminggu</td>
+                <td>:</td>
+                <td><input type="text" name="jam_kerja"></td>
+            </tr>
+            <tr>
+                <td>Pilih golongan</td>
+                <td>:</td>
+                <td>
+                    <select name="golongan">
+                        <option value="A">Golongan A</option>
+                        <option value="B">Golongan B</option>
+                        <option value="C">Golongan C</option>
+                        <option value="D">Golongan D</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="submit" name="submit" value="Hitung Upah"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
